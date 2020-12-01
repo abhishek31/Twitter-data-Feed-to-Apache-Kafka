@@ -5,10 +5,10 @@ from tweepy import Stream
 from kafka import KafkaConsumer, KafkaProducer
 import json
 #Twittwe API credentials
-access_token = "378067031-g4SQ2mqogTpYpWGfI8PRuWio8wvLAINXA1ML9T"   
-access_token_secret =  "q86ma7UolOdKlSx0dLC6aS5F0ASJ1giLjcYHPERCasP"
-consumer_key =  "18v3tTbDLW6Tb4E9gJraP5G"
-consumer_secret =  "95sijBmumpQpHczNKBCaBXs0WDzVnLqyunPyM519zzLZZvr"
+access_token = "37806703************************"   
+access_token_secret =  "q86***************************"
+consumer_key =  "18v3t******************"
+consumer_secret =  "95sijBmu***********************"
 class StdOutListener(StreamListener):
     def on_data(self, data):
         json_data = {}
